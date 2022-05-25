@@ -1,0 +1,39 @@
+
+body{
+    background-color: rgba(142, 230, 226, 0.623);
+    color: white;
+    font: normal 20px 'Trebuchet MS';
+}
+
+
+h1{
+    text-align: center;
+}
+
+
+section{
+    background-color: white;
+    color: black;
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    padding: 30px;
+}
+
+
+footer{
+ font-style: italic;
+ font-size: large;
+ text-align: center;
+ margin: 30px;
+}
+
