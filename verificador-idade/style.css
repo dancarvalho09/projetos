@@ -1,0 +1,21 @@
+
+@font-face {
+    font-family: 'Calling Code Regular';
+    src: url('fontes/Calling\ Code\ Regular.otf') format('opentype');
+}
+
+body{
+    font: normal 18px 'Calling Code Regular';
+    
+}
+
+section{
+    
+    margin: auto;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
