@@ -231,11 +231,11 @@ footer{
 footer a{
     color: white;
     font-weight: bolder;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
 footer a:hover{
     text-decoration: underline;
-    color: var(--cor1);
+    color: var(--cor0);
 }
