@@ -1,14 +1,22 @@
 
 function carregar() {
-    var msg = window.document.getElementById('msg')
-    var img = window.document.getElementById('imagem')
+     let msg = window.document.getElementById('msg')
+     let img = window.document.getElementById('imagem')
 
-   var date = new Date()
-    var hora = date.getHours()
-    var minutos = date.getMinutes()
+     let date = new Date()
 
-    /*var hora = 20
-    var minutos = 15*/
+     let new_date = new Date()
+     new_date.setDate(date.getDate())
+
+     let hora = date.getHours()
+     let minutos = new_date.getMinutes()
+
+   
+
+    /* PARA TESTAR OUTROS HORÁRIOS
+    let hora = 20
+    let minutos = 15
+    */
     
    if (hora >= 0 && hora < 12) {
         img.src = 'foto-manha.jpg' //bom dia
