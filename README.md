@@ -4,8 +4,6 @@ Projetos criados durante a aprendizagem de HTML5, CSS3 e Javascript.
 
 * <a href="https://dancarvalho09.github.io/projetos/tela-login/index.html" target="_blank"> Tela de Login </a>
 
-* <a href="https://dancarvalho09.github.io/projetos/redes-sociais/index.html" target="_blank"> Redes Sociais </a>
-
 * <a href="https://dancarvalho09.github.io/projetos/verificador-horas/index.html" target="_blank"> Hora do dia </a>
 
 * <a href="https://dancarvalho09.github.io/projetos/verificador-idade/index.html" target="_blank"> Verificador de idade </a>
