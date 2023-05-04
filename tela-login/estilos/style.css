@@ -1,0 +1,151 @@
+/* MOBILE FIRST*/
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,600&display=swap');
+
+
+/* 
+PALETA DE CORES (https://color.adobe.com/pt/create/color-wheel)
+
+#5C4027 (marrom escuro)
+#E1C0A2 (bege)
+#DB985C (areia)
+#5C4E42 (terra)
+#A87547 (areia escuro)
+
+*/ 
+
+
+* {
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #5C4027;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+section#login {
+    background-color: white;
+    height: 520px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+div#imagem {
+   background: #5C4027 url(../imagens/form-background.jpg) no-repeat;
+   background-size: cover;
+   background-position: center center;
+   height: 200px;
+   display: block;
+}
+
+div#formulario {
+    padding: 10px;
+    display: block;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+div#formulario > p {
+    font-size: 15px;
+    padding: 15px;
+}
+
+div.campo {
+    background-color: #5C4027; 
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid #5C4027;
+    display: block;
+    margin: 5px 0px;
+}
+
+div.campo > span {
+    font-size: 24px;
+    color: white;
+    width: 40px;
+    padding: 10px; 
+}
+
+div.campo > input {
+    font-size: 16px;
+    color: #3f2b1a;
+    background-color: #E1C0A2;
+    width: calc(100% - 43.5px);
+    height: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-9.5px);
+}
+
+div.campo > input:focus-within {
+   background-color: white; 
+}
+
+
+input[type=submit] {
+    font-size: 16px;
+    background-color: #5C4E42;
+    color: white;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin-top: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: #DB985C;
+    cursor: pointer;
+}
+
+a.esqueci-senha {
+    font-size: 16px;
+    color: white;
+    background-color: #A87547;
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 9px;
+    padding: 5px;
+}
+
+a.esqueci-senha:hover{
+    color: #5C4027;
+    background-color: #DB985C;
+}
+a.esqueci-senha > span {
+    font-size: 14px;
+
+}
