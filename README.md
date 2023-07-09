@@ -2,7 +2,7 @@
 Projetos criados durante a aprendizagem de HTML5, CSS3 e Javascript. 
 <br><br><br>
 
-* <a href="https://dancarvalho09.github.io/projetos/clone-tinder/index.html" target="_blank"> Clone do Spotify </a>
+* <a href="https://dancarvalho09.github.io/projetos/clone-tinder/index.html" target="_blank"> Clone do Tinder </a>
 
 * <a href="https://dancarvalho09.github.io/projetos/clone-spotify/index.html" target="_blank"> Clone do Spotify </a>
 
